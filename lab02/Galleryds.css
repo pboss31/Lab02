@@ -1,0 +1,32 @@
+img{
+	max-width: 100%;
+}
+.gallery{
+	background-color: #845ec2;
+	padding: 100px 0;
+}
+.gallery img{
+	background-color: #ffffff;
+	padding: 15px;
+    width: 100%;
+    display: flex;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    transition: 1s;
+    cursor: pointer;
+}
+#gallery-modal .modal-img{
+	width: 100%;
+}
+
+.gallery img:hover{
+    background-size: 150%;
+    background-position: center;
+}
+h1{
+    background-color: #ffc75f;
+    padding: 50px;
+    font-family: 'Mali', cursive;
+}
+body {
+    background-color: #d8d8d8;
+}
